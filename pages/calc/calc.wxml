@@ -1,0 +1,49 @@
+
+
+<view class="content">
+
+  <view class="layout-Top">
+    {{screenData}}
+  </view>
+
+  <view class='layout-Bottom' >
+    <view class="btnGroup">
+      <view class="item orange" id="{{idC}}" bindtap="clickBtn2" hover-class="hover-Bottom">C</view>
+      <view class="item orange" id="{{idB}}" bindtap="clickBtn2" hover-class="hover-Bottom">←</view>
+      <view class="item orange iconBtn" id="{{idA}}" bindtap="clickBtn2" hover-class="hover-Bottom">
+        <icon type="{{iconType}}" size="{{iconSize}}" color="{{iconColor}}"hover-class="hover-Bottom" class="icon"/>
+      </view>
+
+      
+      <view class="item orange" id="{{idADD}}" bindtap="clickBtn2" hover-class="hover-Bottom">+</view>
+    </view>
+
+    <view class="btnGroup">
+      <view class="item blue" id="{{id9}}" bindtap="clickBtn1" hover-class="hover-Bottom">9</view>
+      <view class="item blue" id="{{id8}}" bindtap="clickBtn1" hover-class="hover-Bottom">8</view>
+      <view class="item blue" id="{{id7}}" bindtap="clickBtn1" hover-class="hover-Bottom">7</view>
+      <view class="item orange "id="{{idDEL}}" bindtap="clickBtn2" hover-class="hover-Bottom">-</view>
+    </view>
+
+    <view class="btnGroup">
+      <view class="item blue" id="{{id6}}" bindtap="clickBtn1" hover-class="hover-Bottom">6</view>
+      <view class="item blue" id="{{id5}}" bindtap="clickBtn1" hover-class="hover-Bottom">5</view>
+      <view class="item blue" id="{{id4}}" bindtap="clickBtn1" hover-class="hover-Bottom">4</view>
+      <view class="item orange" id="{{idX}}" bindtap="clickBtn2" hover-class="hover-Bottom">*</view>
+    </view>
+
+    <view class="btnGroup">
+      <view class="item blue" id="{{id3}}" bindtap="clickBtn1" hover-class="hover-Bottom">3</view>
+      <view class="item blue" id="{{id2}}" bindtap="clickBtn1" hover-class="hover-Bottom">2</view>
+      <view class="item blue" id="{{id1}}" bindtap="clickBtn1" hover-class="hover-Bottom">1</view>
+      <view class="item orange" id="{{idDIV}}" bindtap="clickBtn2" hover-class="hover-Bottom">/</view>
+    </view>
+
+    <view class="btnGroup">
+      <view class="item blue zero" id="{{id0}}" bindtap="clickBtn1" hover-class="hover-Bottom">0</view>
+      <view class="item blue" id="{{idP}}" bindtap="clickBtn2" hover-class="hover-Bottom">.</view>
+      <view class="item orange" id="{{idE}}" bindtap="clickBtn2" hover-class="hover-Bottom">=</view>
+    </view>
+
+  </view>
+</view>

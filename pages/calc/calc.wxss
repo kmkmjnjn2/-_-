@@ -1,0 +1,66 @@
+
+
+.content{
+
+
+}
+
+.layout-Top{
+  width: 100%;
+  line-height: 260rpx;
+  background-color: #ccc;
+  font-size: 60rpx;
+  font-weight: bold;
+  margin-top: 1rpx;
+  margin-bottom: 1rpx;
+  text-align: right;
+}
+
+.btnGroup{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.item{
+  width: 25%;
+  color: #fef4e9;
+  box-sizing: border-box;
+  margin: 0 1px 1px 0;
+}
+.orange{
+  background-color: #f78d1d;
+  line-height: 60rpx;
+  text-align: center;
+  font-weight: bold;
+}
+.blue{
+  background-color: #0095cd;
+  line-height: 60rpx;
+  text-align: center;
+  font-weight: bold;
+}
+
+.zero{
+  width: 50%;
+
+
+}
+.iconBtn{
+  display: flex;
+
+
+
+}
+.icon{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+
+}
+
+.hover-Bottom{
+  background-color: red;
+
+}
